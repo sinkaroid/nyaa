@@ -16,7 +16,7 @@ def main():
     c.setopt(c.WRITEDATA, f)
     c.perform()
     c.close()
-    return
+    
 
 FILE_DEST = './feeds/nekopoi'+ext
 FILE_SRC = nekopoi
@@ -41,4 +41,4 @@ with open(FILE_DEST, 'wb') as f:
 FILE_DEST = './feeds/hentaimama'+ext
 FILE_SRC = hentaimama
 with open(FILE_DEST, 'wb') as f:
-    main()    
+    main()
