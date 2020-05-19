@@ -1,4 +1,4 @@
 urllib==None
-pycurl
+pycurl==7.43.0.5
 certifi
 requests
